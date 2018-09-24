@@ -1,11 +1,11 @@
 ## Star Wars
 
-This project was created in ReactJS making call in API and saving in Redux, and using other technologies web.
+This project was created in React making call in API and saving in Redux, and using other technologies web.
 
-Este projeto foi criado em ReactJS realizando chamada em API e salvando no Redux, e usando outras tecnologias web.
+Este projeto foi criado em React realizando chamada em API e salvando no Redux, e usando outras tecnologias web.
 
 ## Resumo
-Este site foi criado em ReactJS para que as informações vindas da API do Star Wars SWAPI sejam salvas no Redux.
+Este site foi criado em React para que as informações vindas da API do Star Wars SWAPI sejam salvas no Redux.
 Então, se o site for atualizado todos os dados do Redux serão perdidos e o usuário terá que efetuar um novo registro no site.
 O site está traduzido em dois idiomas Português e Inglês, sendo que ele verifica a região em que o usuário se encontra e o traduz automaticamente.
 Obs: Se o usuário estiver numa localidade do idioma Português, é possível alterar as linhas de código no arquivo 'index.js' para testar o idioma Inglês, neste arquivo contém também a documentação para esta alteração.
@@ -25,7 +25,7 @@ Obs: Se o usuário estiver numa localidade do idioma Português, é possível al
   - [Listagem](#listagem)
 
 - [Tecnologias](#tecnologias)
-  - [ReactJS](#reactjs)
+  - [React](#react)
   - [Create React App](#create-react-app)
   - [React Router](#react-router)
   - [Redux](#redux)
@@ -81,8 +81,8 @@ Ao clicar em um item da categoria é possível visualizar seus detalhes.
 
 ## Tecnologias
 
-### [ReactJS](https://github.com/facebook/react)
-Este site foi desenvolvido em ReactJS com conceitos de PWA e SPA.
+### [React](https://github.com/facebook/react)
+Este site foi desenvolvido em React com conceitos de PWA e SPA.
 
 ### [Create React App](https://github.com/facebook/create-react-app)
 Para a criação da estrutura inicial do projeto foi utilizado o Create React App.
