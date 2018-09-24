@@ -1,0 +1,20 @@
+{
+  "short_name": "Star Wars",
+  "name": "Star Wars",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#FFE81F"
+}

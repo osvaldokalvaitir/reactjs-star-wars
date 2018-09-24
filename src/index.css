@@ -1,0 +1,21 @@
+body {
+  background-color: #ffe81f;
+}
+
+.page-margin {
+  margin: auto;
+  margin-top: 72px;
+  margin-bottom: 60px;
+}
+
+.page-size {
+  height: 564px;
+}
+
+.block-height {
+  height: 100%;
+}
+
+.block-width {
+  width: 100%;
+}
