@@ -3,6 +3,19 @@ Site criado em ReactJS realizando chamada em API e salvando no Redux, e usando o
 
 Site created in ReactJS making call in API and saving in Redux, and using other technologies web.
 
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
+Below you will find some information on how to perform common tasks.<br>
+You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+
+## Table of Contents
+
+- [Updating to New Releases](#updating-to-new-releases)
+- [Sending Feedback](#sending-feedback)
+- [Folder Structure](#folder-structure)
+- [Available Scripts](#available-scripts)
+
+
 Este site foi criado em ReactJS para que as informações vindas da API do Star Wars SWAPI sejam salvas no Redux.
 Então, se o site for atualizado todos os dados do Redux serão perdidos e o usuário terá que efetuar um novo registro no site.
 O site está traduzido em dois idiomas Português e Inglês, sendo que ele verifica a região em que o usuário se encontra e o traduz automaticamente.
