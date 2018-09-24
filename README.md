@@ -93,7 +93,7 @@ Para o redirecionamento das rotas foi utilizado a biblioteca React Router.
 ### [Redux](https://github.com/reduxjs/redux)
 Para a persistência dos dados da API foi utilizado a biblioteca Redux.
 
-### Ducks
+### [Ducks](https://blog.rocketseat.com.br/estrutura-redux-escalavel-com-ducks/)
 Para uma estrutura de arquivos escalável no Redux foi utilizado o conceito do Ducks.
 
 ### [Formik](https://github.com/jaredpalmer/formik)
