@@ -12,9 +12,6 @@ Obs: Se o usuário estiver numa localidade do idioma Português, é possível al
 
 ## Tabela de Conteúdo
 
-- [Available Scripts](#available-scripts)
-  - [npm start](#npm-start)
-
 - [Telas](#telas)
   - [Login](#login)
   - [Registro](#registro)
