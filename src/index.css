@@ -3,13 +3,7 @@ body {
 }
 
 .page-margin {
-  margin: auto;
   margin-top: 72px;
-  margin-bottom: 60px;
-}
-
-.page-size {
-  height: 564px;
 }
 
 .block-height {

@@ -30,7 +30,8 @@ class Info extends Component {
         </div>
         <ul className="list-group">
           <li className="list-group-item list-group-item-dark">
-            {JSON.stringify(this.state.obj)
+            {
+              JSON.stringify(this.state.obj)
             // this.state.obj
             //      .map((item, id) => <ListItemInfo item={item} key={id} />)
             }

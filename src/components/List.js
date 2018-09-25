@@ -127,7 +127,7 @@ class List extends Component {
         <JwPagination
           items={this.state.list}
           onChangePage={this.onChangePage}
-          pageSize={10}
+          pageSize={15}
           styles={customStyles}
           labels={customLabels}
         />

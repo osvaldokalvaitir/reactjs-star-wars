@@ -4,7 +4,7 @@ import { injectIntl } from "react-intl";
 
 import { connect } from "react-redux";
 
-import AvatarImg from "../assets/img/darthvader.png";
+import AvatarImg from "../assets/img/tropperstorm.png";
 
 class UserProfile extends Component {
   render() {
