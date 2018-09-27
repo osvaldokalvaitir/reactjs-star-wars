@@ -65,12 +65,20 @@ class List extends Component {
     else if (resource === "vehicles") Prop = this.props.vehicles;
 
     if (isEmpty(Prop)) {
-      let next = `https://swapi.co/api/${resource}`;
+      let nextURL = `${resource}`;
       do {
-        let response = await StarApi(next);
-        next = response.data.next;
-        let resList = response.data.results;
-        resList.map((elem, index) => {
+        let response
+        try {
+          response = await StarApi(nextURL);
+          if(!response) return window.alert('Servidor não encontrado.');
+        } catch(e) {
+          return window.alert(`Servidor não está respondendo. Erro: ${e}`);
+        }    
+        const { next, results } = response.data;
+        (next !== null) 
+          ? nextURL = next.substring(StarApi.defaults.baseURL.length)
+          : nextURL = null
+        results.map((elem, index) => {
           if (resource === "people") this.props.addPeople(index, elem);
           else if (resource === "planets") this.props.addPlanet(index, elem);
           else if (resource === "species") this.props.addSpecie(index, elem);
@@ -78,26 +86,47 @@ class List extends Component {
             this.props.addStarship(index, elem);
           else if (resource === "vehicles") this.props.addVehicle(index, elem);
         });
-        if (resource === "people") this.setState({ list: this.props.peoples });
+        if (resource === "people") 
+          this.setState({
+            list: this.props.peoples
+          });
         else if (resource === "planets")
-          this.setState({ list: this.props.planets });
+          this.setState({
+           list: this.props.planets
+          });
         else if (resource === "species")
-          this.setState({ list: this.props.species });
+          this.setState({
+            list: this.props.species
+          });
         else if (resource === "starships")
-          this.setState({ list: this.props.starships });
+          this.setState({
+            list: this.props.starships
+          });
         else if (resource === "vehicles")
-          this.setState({ list: this.props.vehicles });
-      } while (next !== null);
+          this.setState({
+            list: this.props.vehicles
+          });
+        } while (nextURL !== null);   
     } else {
-      if (resource === "people") this.setState({ list: this.props.peoples });
+      if (resource === "people") this.setState({
+        list: this.props.peoples
+      });
       else if (resource === "planets")
-        this.setState({ list: this.props.planets });
+        this.setState({
+          list: this.props.planets
+        });
       else if (resource === "species")
-        this.setState({ list: this.props.species });
+        this.setState({
+          list: this.props.species
+        });
       else if (resource === "starships")
-        this.setState({ list: this.props.starships });
+        this.setState({
+          list: this.props.starships
+        });
       else if (resource === "vehicles")
-        this.setState({ list: this.props.vehicles });
+        this.setState({
+          list: this.props.vehicles
+        });
     }
   }
 

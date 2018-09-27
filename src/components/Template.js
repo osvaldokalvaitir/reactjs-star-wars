@@ -13,11 +13,11 @@ const Template = () => {
   return (
     <div className="container-fluid">
       <Header />
-      <div className="row page-margin page-size">
-        <div className="col-md-3 col-sm-12">
+      <div className="row block-margin">
+        <div className="col-md-3 col-sm-12 block-padding">
           <UserProfile />
         </div>
-        <div className="col-md-9 col-sm-12">
+        <div className="col-md-9 col-sm-12 block-padding">
           <Switch>
             <Route exact path="/about" component={About} />
             <Route exact path="/people/:id" component={Info} />

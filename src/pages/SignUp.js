@@ -33,7 +33,7 @@ class SignUpForm extends Component {
       isSubmitting
     } = this.props;
     return (
-      <div className="container-fluid page-margin">
+      <div className="container-fluid block-margin">
         <div className="row">
           <div className="col-xl-7 col-lg-8 col-md-10 col-sm-10 ml-auto mr-auto">
             <form onSubmit={handleSubmit}>

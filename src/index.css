@@ -2,8 +2,12 @@ body {
   background-color: #ffe81f;
 }
 
-.page-margin {
+.block-margin {
   margin-top: 72px;
+}
+
+.block-padding {
+  padding-bottom: 15px;
 }
 
 .block-height {

@@ -22,7 +22,7 @@ class LoginForm extends Component {
 
     const { values, handleChange, handleSubmit, isSubmitting } = this.props;
     return (
-      <div className="container-fluid page-margin">
+      <div className="container-fluid block-margin">
         <div className="row">
           <div className="col-xl-4 col-lg-5 col-md-6 col-sm-8 ml-auto mr-auto">
             <form onSubmit={handleSubmit}>
