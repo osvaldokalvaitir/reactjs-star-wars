@@ -1,5 +1,39 @@
+html, body {
+  height: 100%;
+}
+
+html {
+  display: block;
+}
+
 body {
+  margin: 0;
+  margin-top: 0em;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-color: #ffe81f;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.form-login{
+  width: 100%;
+  min-width: 400px;
+  max-width: 450px;
+  padding: 15px;
+  margin: 0 auto;
 }
 
 .block-margin {
