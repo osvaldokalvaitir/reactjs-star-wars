@@ -7,6 +7,10 @@ html {
 }
 
 body {
+  background-image: url("./assets/img/background_white.jpg");  
+}
+
+.body-center {
   margin: 0;
   margin-top: 0em;
   display: -ms-flexbox;
@@ -19,8 +23,8 @@ body {
   -webkit-box-pack: center;
   justify-content: center;
   padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #ffe81f;
+  padding-bottom: 40px; 
+  background-image: url("./assets/img/background.jpg");
 }
 
 form {
@@ -34,6 +38,28 @@ form {
   max-width: 450px;
   padding: 15px;
   margin: 0 auto;
+}
+
+.form-signup{
+  width: 100%;
+  min-width: 550px;
+  max-width: 600px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.template{
+  display: block;
+  margin-top: 0em;  
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;   
+}
+
+@media (max-width: 550px) {
+  .form-signup {
+    min-width: 400px;
+  }
 }
 
 .block-margin {

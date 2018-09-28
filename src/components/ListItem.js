@@ -15,7 +15,7 @@ class ListItem extends Component {
       id = props.id;
 
     return (
-      <li className="list-group-item list-group-item-dark">
+      <li className="list-group-item list-group-item-action list-group-item-dark">
         <Link
           to={`${resource}/${id}`}
           className="text-dark font-weight-bold"

@@ -142,8 +142,8 @@ class List extends Component {
 
   render() {
     return (
-      <div>
-        <ul className="list-group">
+      <div className="card bg-light">
+        <ul className="list-group border-dark">
           {this.state.pageOfItems.map((item, id) => (
             <ListItem
               item={item}

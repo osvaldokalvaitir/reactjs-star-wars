@@ -10,7 +10,7 @@ const Footer = () => {
       <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
         <li className="nav-item">
           <a
-            className="nav-link text-dark"
+            className="nav-link text-dark small font-weight-bold"
             href="https://www.starwars.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -20,7 +20,7 @@ const Footer = () => {
         </li>
         <li className="nav-item">
           <a
-            className="nav-link text-dark"
+            className="nav-link text-dark small font-weight-bold"
             href="https://www.facebook.com/StarWars.br/?brand_redir=169299103121699"
             target="_blank"
             rel="noopener noreferrer"
@@ -30,7 +30,7 @@ const Footer = () => {
         </li>
         <li className="nav-item">
           <a
-            className="nav-link text-dark"
+            className="nav-link text-dark small font-weight-bold"
             href="https://starwars.tumblr.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -40,7 +40,7 @@ const Footer = () => {
         </li>
         <li className="nav-item">
           <a
-            className="nav-link text-dark"
+            className="nav-link text-dark small font-weight-bold"
             href="https://twitter.com/starwars"
             target="_blank"
             rel="noopener noreferrer"
@@ -50,7 +50,7 @@ const Footer = () => {
         </li>
         <li className="nav-item">
           <a
-            className="nav-link text-dark"
+            className="nav-link text-dark small font-weight-bold"
             href="https://www.instagram.com/starwars/"
             target="_blank"
             rel="noopener noreferrer"
@@ -60,7 +60,7 @@ const Footer = () => {
         </li>
         <li className="nav-item">
           <a
-            className="nav-link text-dark"
+            className="nav-link text-dark small font-weight-bold"
             href="https://plus.google.com/+StarWars/posts"
             target="_blank"
             rel="noopener noreferrer"
@@ -70,7 +70,7 @@ const Footer = () => {
         </li>
         <li className="nav-item">
           <a
-            className="nav-link text-dark"
+            className="nav-link text-dark small font-weight-bold"
             href="https://www.youtube.com/user/starwars"
             target="_blank"
             rel="noopener noreferrer"
@@ -79,7 +79,7 @@ const Footer = () => {
           </a>
         </li>
       </ul>
-      <div className="copyright float-right text-dark">
+      <div className="copyright float-right text-dark small font-weight-bold">
         &copy; {year}, <FormattedMessage id="developedBy" />{" "}
         <a
           className="text-dark"

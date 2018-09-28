@@ -12,6 +12,14 @@ import { withFormik } from "formik";
 import LogoImg from "../assets/img/tropperstorm.png";
 
 class LoginForm extends Component {
+  componentDidMount() {
+    document.body.classList.toggle('body-center')
+  }
+
+  componentWillUnmount() {
+    document.body.classList.remove('body-center')
+  }  
+
   render() {
     const intl = this.props.intl;
     const username = intl.formatMessage({ id: "username" });
@@ -21,8 +29,8 @@ class LoginForm extends Component {
     const { values, handleChange, handleSubmit, isSubmitting } = this.props;
     return (
       <form className="form-login" onSubmit={handleSubmit}>
-        <div className="card">
-          <h4 className="card-header bg-secondary mb-3 text-white text-center">
+        <div className="card border-light">
+          <h4 className="card-header bg-dark mb-3 text-white text-center">
             <img
               src={LogoImg}
               alt={StarWarsLogo}

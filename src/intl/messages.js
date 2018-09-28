@@ -22,10 +22,15 @@ export default {
     profileAvatar: "Profile Avatar",
     // Home
     peoples: "Peoples",
+    peoples_abbr: "Pe.",
     planets: "Planets",
+    planets_abbr: "Pl.",
     species: "Species",
+    species_abbr: "Sp.",
     starships: "Starships",
+    starships_abbr: "St.",
     vehicles: "Vehicles",
+    vehicles_abbr: "Ve.",    
     // Info
     back: "Back",
     React: "This site was developed in React with PWA and SPA concepts.",
@@ -76,10 +81,15 @@ export default {
     profileAvatar: "Avatar do Perfil",
     // Home
     peoples: "Pessoas",
+    peoples_abbr: "Pes.",
     planets: "Planetas",
+    planets_abbr: "Pla.",
     species: "Espécies",
+    species_abbr: "Esp.",
     starships: "Espaçonaves",
+    starships_abbr: "Espa.",    
     vehicles: "Veículos",
+    vehicles_abbr: "Veí.",    
     // Info
     back: "Voltar",
     // About
