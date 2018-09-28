@@ -8,11 +8,17 @@ import { signUp } from "../store/ducks/users";
 
 import { withFormik } from "formik";
 
-import Footer from "../components/Footer";
-
 import LogoImg from "../assets/img/tropperstorm.png";
 
 class SignUpForm extends Component {
+  componentDidMount() {
+    document.body.classList.toggle('body-center')
+  }
+
+  componentWillUnmount() {
+    document.body.classList.remove('body-center')
+  }  
+
   render() {
     const intl = this.props.intl;
     const name = intl.formatMessage({ id: "name" });
@@ -33,12 +39,9 @@ class SignUpForm extends Component {
       isSubmitting
     } = this.props;
     return (
-      <div className="container-fluid block-margin">
-        <div className="row">
-          <div className="col-xl-7 col-lg-8 col-md-10 col-sm-10 ml-auto mr-auto">
-            <form onSubmit={handleSubmit}>
-              <div className="card">
-                <h4 className="card-header bg-secondary mb-3 text-white text-center">
+            <form className="bodys form-signup" onSubmit={handleSubmit}>
+              <div className="card border-light">
+                <h4 className="card-header bg-dark mb-3 text-white text-center">
                   <img
                     src={LogoImg}
                     alt={StarWarsLogo}
@@ -202,10 +205,6 @@ class SignUpForm extends Component {
                 </div>
               </div>
             </form>
-          </div>
-        </div>
-        <Footer />
-      </div>
     );
   }
 }

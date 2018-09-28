@@ -12,7 +12,7 @@ class UserProfile extends Component {
     const profileAvatar = intl.formatMessage({ id: "profileAvatar" });
 
     return (
-      <div className="card bg-secondary text-white block-height">
+      <div className="card bg-light text-white block-height">
         <h4 className="card-header bg-dark text-center">
           <img
             src={AvatarImg}
@@ -20,7 +20,7 @@ class UserProfile extends Component {
             style={{ width: "150px", height: "auto" }}
           />
         </h4>
-        <div className="card-body">
+        <div className="card-body bg-secondary">
           <ul className="list-group">
             <li className="list-group-item list-group-item-dark">
               <h6 className="text-center">{this.props.auth.user.name}</h6>

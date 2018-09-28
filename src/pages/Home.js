@@ -8,22 +8,27 @@ import NotFound from "../components/NotFound";
 
 const Home = () => {
   return (
-    <div className="block-height block-width">
+    <div className="card bg-light block-height block-width">
       <div className="btn-group btn-group-justified block-width">
         <Link to="/people" className="btn btn-dark block-width">
-          <FormattedMessage id="peoples" />
+          <span className="d-none d-sm-block"><FormattedMessage id="peoples" /></span>
+          <span className="d-sm-none"><FormattedMessage id="peoples_abbr" /></span>
         </Link>
         <Link to="/planets" className="btn btn-dark block-width">
-          <FormattedMessage id="planets" />
+          <span className="d-none d-sm-block"><FormattedMessage id="planets" /></span>
+          <span className="d-sm-none"><FormattedMessage id="planets_abbr" /></span>
         </Link>
         <Link to="/species" className="btn btn-dark block-width">
-          <FormattedMessage id="species" />
+          <span className="d-none d-sm-block"><FormattedMessage id="species" /></span>
+          <span className="d-sm-none"><FormattedMessage id="species_abbr" /></span>          
         </Link>
         <Link to="/starships" className="btn btn-dark block-width">
-          <FormattedMessage id="starships" />
+          <span className="d-none d-sm-block"><FormattedMessage id="starships" /></span>
+          <span className="d-sm-none"><FormattedMessage id="starships_abbr" /></span>
         </Link>
         <Link to="/vehicles" className="btn btn-dark block-width">
-          <FormattedMessage id="vehicles" />
+          <span className="d-none d-sm-block"><FormattedMessage id="vehicles" /></span>
+          <span className="d-sm-none"><FormattedMessage id="vehicles_abbr" /></span>          
         </Link>
       </div>
       <Switch>
