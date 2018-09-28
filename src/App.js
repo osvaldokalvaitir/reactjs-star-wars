@@ -20,7 +20,7 @@ class App extends Component {
           <Route exact path="/signup" component={SignUp} />
           <Route
             path="/"
-            component={this.props.auth.isLogged ? Template : Template}
+            component={this.props.auth.isLogged ? Template : Login}
           />
         </Switch>
       </BrowserRouter>
