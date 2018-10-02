@@ -3,8 +3,7 @@ import { Switch, Route, Link } from "react-router-dom";
 
 import { FormattedMessage } from "react-intl";
 
-import List from "../components/List";
-import NotFound from "../components/NotFound";
+import List from "./List";
 
 const Home = () => {
   return (
@@ -61,11 +60,7 @@ const Home = () => {
           exact 
           path="/" 
           render={() => <List resource={"people"} />} 
-        />
-        <Route 
-          path="*" 
-          component={NotFound} 
-        />
+        />        
       </Switch>
     </div>
   );

@@ -4,11 +4,11 @@ import { FormattedMessage, injectIntl } from "react-intl";
 
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
-import { signUp } from "../store/ducks/users";
+import { signUp } from "../../store/ducks/users";
 
 import { withFormik } from "formik";
 
-import LogoImg from "../assets/img/tropperstorm.png";
+import LogoImg from "../../assets/img/tropperstorm.png";
 
 class SignUpForm extends Component {
   componentDidMount() {

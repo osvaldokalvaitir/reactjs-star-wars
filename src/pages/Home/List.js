@@ -2,15 +2,15 @@ import React, { Component } from "react";
 
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
-import { addPeople } from "../store/ducks/peoples";
-import { addPlanet } from "../store/ducks/planets";
-import { addSpecie } from "../store/ducks/species";
-import { addStarship } from "../store/ducks/starships";
-import { addVehicle } from "../store/ducks/vehicles";
+import { addPeople } from "../../store/ducks/peoples";
+import { addPlanet } from "../../store/ducks/planets";
+import { addSpecie } from "../../store/ducks/species";
+import { addStarship } from "../../store/ducks/starships";
+import { addVehicle } from "../../store/ducks/vehicles";
 
 import JwPagination from "jw-react-pagination";
 
-import StarApi from "../services/StarApi";
+import StarApi from "../../services/StarApi";
 
 import ListItem from "./ListItem";
 

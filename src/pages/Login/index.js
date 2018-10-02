@@ -5,11 +5,11 @@ import { FormattedMessage, injectIntl } from "react-intl";
 
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
-import { login } from "../store/ducks/auth";
+import { login } from "../../store/ducks/auth";
 
 import { withFormik } from "formik";
 
-import LogoImg from "../assets/img/tropperstorm.png";
+import LogoImg from "../../assets/img/tropperstorm.png";
 
 class LoginForm extends Component {
   componentDidMount() {
