@@ -10,6 +10,24 @@ Então, se o site for atualizado todos os dados do Redux serão perdidos e o usu
 O site está traduzido em dois idiomas Português e Inglês, sendo que ele verifica a região em que o usuário se encontra e o traduz automaticamente.
 Obs: Se o usuário estiver numa localidade do idioma Português, é possível alterar as linhas de código no arquivo 'index.js' para testar o idioma Inglês, neste arquivo contém também a documentação para esta alteração.
 
+## Instalação e execução
+Os comandos abaixos devem ser executados no prompt de comando dentro da pasta que se encontra o projeto.
+
+Para instalar as dependências do projeto:
+```
+npm install
+```
+
+Executar o projeto localmente:
+```
+npm start
+```
+
+Construir e executar o projeto:
+```
+npm run build
+```
+
 ## Índice
 
 - [Telas](#telas)
