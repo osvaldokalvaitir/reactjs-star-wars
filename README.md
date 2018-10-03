@@ -92,7 +92,7 @@ As informações são todos os dados cadastrados pelo usuário.
 
 ### Listagem
 É a parte central do site, onde se encontram os botões para diversas categorias.
-As categorias são: pessoas, planetas, espécies, espaçonaves e veículos.
+As categorias são: pessoas, planetas, espécies, naves estelares e veículos.
 Selecionando uma categoria aparecerá uma listagem específica de acordo com a mesma.
 Ao clicar em um item da categoria é possível visualizar seus detalhes.
 

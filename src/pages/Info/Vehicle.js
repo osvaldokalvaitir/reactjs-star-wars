@@ -2,6 +2,11 @@ import React, { Component } from "react";
 
 import { connect } from "react-redux";
 
+import { injectIntl } from "react-intl";
+
+import ListItem from './ListItem';
+import NoInfo from './NoInfo';
+
 class Vehicle extends Component {
   state = {
     data: [],
@@ -9,20 +14,58 @@ class Vehicle extends Component {
 
   componentDidMount() {
     const data = this.props.vehicles[this.props.match.params.id];
-    this.setState({ data });
+    if(data) this.setState( { data: [ data.attributes ] } );
   }
 
   render() {
+    const VehicleInfo = this.state.data;
+    console.log(VehicleInfo)
+
     return (
-      <ul className="list-group">
-        <li className="list-group-item list-group-item-dark">
-          {
-             JSON.stringify(this.state.data)
-            
-          //      .map((item, id) => <ListItemInfo item={item} key={id} />)
-          }
-        </li>
-      </ul>
+      <div>
+        { VehicleInfo.length > 0 ? 
+            (            
+              VehicleInfo.map(vehicle => {
+                const {name, created, } = vehicle;
+                const intl = this.props.intl;
+                const vehicleStarshipClass = intl.formatMessage({ id: "vehicleStarshipClass" });
+                const vehicleModel = intl.formatMessage({ id: "vehicleModel" });
+                const vehicleManufacturer = intl.formatMessage({ id: "vehicleManufacturer" });
+                const vehicleMGLT = intl.formatMessage({ id: "vehicleMGLT" });
+                const vehicleLength = intl.formatMessage({ id: "vehicleLength" });
+                const vehicleMaxAtmospheringSpeed = intl.formatMessage({ id: "vehicleMaxAtmospheringSpeed" });
+                const vehicleHyperdriveRating = intl.formatMessage({ id: "vehicleHyperdriveRating" });
+                const vehicleCargoCapacity = intl.formatMessage({ id: "vehicleCargoCapacity" });
+                const vehiclePassengers = intl.formatMessage({ id: "vehiclePassengers" });
+                const vehicleCrew = intl.formatMessage({ id: "vehicleCrew" });
+                const vehicleConsumables = intl.formatMessage({ id: "vehicleConsumables" });
+                const vehicleCostInCredits = intl.formatMessage({ id: "vehicleCostInCredits" });
+                return (
+                  <div key={ created }>
+                    <h1 className="text-center text-white">{ name }</h1>
+                    <ul className="list-group">
+                      <ListItem name={ vehicleStarshipClass } value={ starship_class } />
+                      <ListItem name={ vehicleModel } value={ model } />
+                      <ListItem name={ vehicleManufacturer } value={ manufacturer } />
+                      <ListItem name={ vehicleMGLT } value={ MGLT } />
+                      <ListItem name={ vehicleLength } value={ length } />
+                      <ListItem name={ vehicleMaxAtmospheringSpeed } value={ max_atmosphering_speed } />
+                      <ListItem name={ vehicleHyperdriveRating } value={ hyperdrive_rating } />
+                      <ListItem name={ vehicleCargoCapacity } value={ cargo_capacity } />
+                      <ListItem name={ vehiclePassengers } value={ passengers } />
+                      <ListItem name={ vehicleCrew } value={ crew } />
+                      <ListItem name={ vehicleConsumables } value={ consumables } />
+                      <ListItem name={ vehicleCostInCredits } value={ cost_in_credits } />                      
+                    </ul>
+                  </div>
+                )
+              })      
+            )
+          : (
+            <NoInfo />
+          )
+        }
+      </div>
     );
   }
 }
@@ -34,4 +77,4 @@ const mapStateToProps = state => ({
 export default connect(
   mapStateToProps,
   null
-)(Vehicle);
+)(injectIntl(Vehicle));
