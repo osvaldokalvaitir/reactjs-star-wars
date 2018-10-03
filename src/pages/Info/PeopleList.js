@@ -8,6 +8,8 @@ class PeopleList extends Component {
   }
   
   list(data) {
+     console.log(data)
+
   	const children = (items) => {
       if (items) {
       	return <ul>{ this.list(items) }</ul>

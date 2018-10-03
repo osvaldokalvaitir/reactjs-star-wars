@@ -1,8 +1,7 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 import { connect } from "react-redux";
-
-import PeopleList from './PeopleList';
 
 class People extends Component {
   state = {
@@ -11,18 +10,34 @@ class People extends Component {
 
   componentDidMount() {
     const data = this.props.peoples[this.props.match.params.id];
-    this.setState({ data: [data.attributes] });
+    this.setState( { data: [ data.attributes ] } );
   }
 
   render() {
+    const PeopleInfo = this.state.data;
+
     return (
-      <ul>
-      {this.state.data.map((item, index) => {
-        return <h1>{item.name}</h1>        
-      })}
-      </ul>
-      //JSON.stringify(this.state.data)
-      //<PeopleList data={this.state.data} />
+      <div>
+        {
+          PeopleInfo.map(people => {
+            const {name} = people;
+            return
+              <div>
+                Nome: <h3>{ name }</h3>
+              </div>
+          })      
+        }
+      </div>
+      
+      // <ul className="list-group">
+      //   <li className="list-group-item list-group-item-dark">
+      //     {
+      //       <li className="list-group-item list-group-item-dark">
+      //         <div className="text-dark font-weight-bold">{this.props.item}</div>
+      //       </li>
+      //     }
+      //   </li>
+      // </ul>
     );
   }
 }
