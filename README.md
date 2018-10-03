@@ -13,13 +13,19 @@ Obs: Se o usuário estiver numa localidade do idioma Português, é possível al
 ## Instalação e execução
 Os comandos abaixos devem ser executados no prompt de comando dentro da pasta que se encontra o projeto.
 
+```
 npm install
+```
 Para instalar as dependências do projeto
 
+```
 npm start
+```
 Executar o projeto localmente
 
+```
 npm run build
+```
 Construir e executar o projeto
 
 ## Índice
