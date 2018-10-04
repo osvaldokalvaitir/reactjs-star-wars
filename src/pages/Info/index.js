@@ -3,21 +3,29 @@ import { Switch, Route, Link } from "react-router-dom";
 
 import { FormattedMessage } from "react-intl";
 
-import People from './People';
-import Planet from './Planet';
-import Specie from './Specie';
-import Starship from './Starship';
-import Vehicle from './Vehicle';
+import People from "./People";
+import Planet from "./Planet";
+import Specie from "./Specie";
+import Starship from "./Starship";
+import Vehicle from "./Vehicle";
+
 class Info extends Component {
+  static contextTypes = {
+    router: () => true
+  };
+
   render() {
     return (
       <div className="card bg-secondary block-height block-width">
         <div className="btn-group block-width bg-dark">
-          <Link className="btn btn-dark" to="/">
+          <button
+            className="btn btn-dark"
+            onClick={this.context.router.history.goBack}
+          >
             <i className="material-icons align-bottom">arrow_back</i>
             {"  "}
             <FormattedMessage id="back" />
-          </Link>
+          </button>
         </div>
         <Switch>
           <Route exact path="/people/:id" component={People} />

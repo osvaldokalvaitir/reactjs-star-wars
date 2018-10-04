@@ -12,7 +12,7 @@ class UserProfile extends Component {
     const profileAvatar = intl.formatMessage({ id: "profileAvatar" });
 
     return (
-      <div className="card bg-light text-white block-height">
+      <div className="card bg-secondary text-white block-height">
         <h4 className="card-header bg-dark text-center">
           <img
             src={AvatarImg}
