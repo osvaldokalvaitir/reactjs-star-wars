@@ -12,7 +12,7 @@ import messages from "./intl/messages";
 
 import App from "./App";
 
-import "./index.css";
+import "./style.css";
 
 import registerServiceWorker from "./registerServiceWorker";
 

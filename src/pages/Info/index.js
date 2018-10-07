@@ -11,7 +11,7 @@ import Vehicle from "./Vehicle";
 
 class Info extends Component {
   static contextTypes = {
-    router: () => true
+    router: () => null
   };
 
   render() {

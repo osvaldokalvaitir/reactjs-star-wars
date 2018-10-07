@@ -72,7 +72,7 @@ class List extends Component {
           response = await StarApi(nextURL);
           if(!response) return window.alert('Servidor não encontrado.');
         } catch(e) {
-          return window.alert(`Servidor não está respondendo. Erro: ${e}`);
+          return window.alert(`Servidor não está respondendo. ${e}`);
         }    
         const { next, results } = response.data;
         (next !== null) 
