@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-image: url("./assets/img/background_white.jpg");  
+  background-color: #cac9c9;
 }
 
 .body-center {
@@ -15,7 +15,7 @@ body {
   margin-top: 0em;
   display: -ms-flexbox;
   display: -webkit-box;
-  display: flex;
+  display: flex; 
   -ms-flex-align: center;
   -ms-flex-pack: center;
   -webkit-box-align: center;
@@ -23,8 +23,8 @@ body {
   -webkit-box-pack: center;
   justify-content: center;
   padding-top: 40px;
-  padding-bottom: 40px; 
-  background-image: url("./assets/img/background.jpg");
+  padding-bottom: 40px;  
+  background-color: #000000;
 }
 
 form {
@@ -63,7 +63,7 @@ form {
 }
 
 .block-margin {
-  margin-top: 72px;
+  padding-top: 72px;
 }
 
 .block-padding {

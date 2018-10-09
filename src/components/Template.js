@@ -10,9 +10,23 @@ import Info from "../pages/Info";
 import About from "../pages/About";
 import NotFound from "../components/NotFound";
 
+import Particles from "react-particles-js";
+import cfg from "../particles/config-light.json";
+
+const particlesStyle = {
+  position: "absolute", 
+  top: "0",
+  left: "0",
+  width: "100%",
+  height: "100%"  
+}
+
 const Template = () => {
   return (
     <div className="container-fluid">
+      <div style={particlesStyle}>
+        <Particles params={cfg} />
+      </div>
       <Header />
       <div className="row block-margin">
         <div className="col-md-3 col-sm-12 block-padding">

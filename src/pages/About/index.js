@@ -103,6 +103,16 @@ const About = () => {
           <li className="nav-item">
             <a
               className="nav-link text-white"
+              href="https://github.com/VincentGarreau/particles.js/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FormattedMessage id="Particlesjs" />
+            </a>
+          </li>          
+          <li className="nav-item">
+            <a
+              className="nav-link text-white"
               href="http://getbootstrap.com/docs/4.1/getting-started/introduction/"
               target="_blank"
               rel="noopener noreferrer"

@@ -45,6 +45,7 @@ export default {
     Axios: "Requests: Axios",
     Intl: "Internationalization: React Intl",
     JWReactPagination: "Pagination: JW React Pagination Component",
+    Particlesjs: "Particles: Particles.js",    
     Bootstrap: "Responsive Design: Bootstrap 4",
     StarWarsAPI: "Star Wars API: SWAPI",
     // Header
@@ -138,7 +139,7 @@ export default {
     planets_abbr: "Pla.",
     species: "Espécies",
     species_abbr: "Esp.",
-    starships: "Nave estelar",
+    starships: "Naves estelares",
     starships_abbr: "Nav.",    
     vehicles: "Veículos",
     vehicles_abbr: "Veí.",    
@@ -156,6 +157,7 @@ export default {
     Axios: "Requisições: Axios",
     Intl: "Internacionalização: React Intl",
     JWReactPagination: "Paginação: JW React Pagination Component",
+    Particlesjs: "Partículas: Particles.js",  
     Bootstrap: "Design Responsivo: Bootstrap 4",
     StarWarsAPI: "API do Star Wars: SWAPI",
     // Header

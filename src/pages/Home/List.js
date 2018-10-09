@@ -67,32 +67,32 @@ class List extends Component {
     if (isEmpty(Prop)) {
       let nextURL = `${resource}`;
       do {
-        let response
+        let response;
         try {
           response = await StarApi(nextURL);
-          if(!response) return window.alert('Servidor não encontrado.');
-        } catch(e) {
+          if (!response) return window.alert("Servidor não encontrado.");
+        } catch (e) {
           return window.alert(`Servidor não está respondendo. ${e}`);
-        }    
+        }
         const { next, results } = response.data;
-        (next !== null) 
-          ? nextURL = next.substring(StarApi.defaults.baseURL.length)
-          : nextURL = null
+        next !== null
+          ? (nextURL = next.substring(StarApi.defaults.baseURL.length))
+          : (nextURL = null);
         results.map((elem, index) => {
           if (resource === "people") this.props.addPeople(index, elem);
           else if (resource === "planets") this.props.addPlanet(index, elem);
           else if (resource === "species") this.props.addSpecie(index, elem);
-          else if (resource === "starships")
-            this.props.addStarship(index, elem);
+          else if (resource === "starships") this.props.addStarship(index, elem);
           else if (resource === "vehicles") this.props.addVehicle(index, elem);
+          return null;
         });
-        if (resource === "people") 
+        if (resource === "people")
           this.setState({
             list: this.props.peoples
           });
         else if (resource === "planets")
           this.setState({
-           list: this.props.planets
+            list: this.props.planets
           });
         else if (resource === "species")
           this.setState({
@@ -106,11 +106,12 @@ class List extends Component {
           this.setState({
             list: this.props.vehicles
           });
-        } while (nextURL !== null);   
+      } while (nextURL !== null);
     } else {
-      if (resource === "people") this.setState({
-        list: this.props.peoples
-      });
+      if (resource === "people")
+        this.setState({
+          list: this.props.peoples
+        });
       else if (resource === "planets")
         this.setState({
           list: this.props.planets

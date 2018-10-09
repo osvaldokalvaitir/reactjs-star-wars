@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
+const linkStyle = {
+  textDecoration: "none"
+};
+
 class ListItem extends Component {
   static defaultProps = {
     item: {},
@@ -19,7 +23,7 @@ class ListItem extends Component {
         <Link
           to={`${resource}/${id}`}
           className="text-dark font-weight-bold"
-          style={{ textDecoration: "none" }}
+          style={linkStyle}
         >
           {item.attributes.name}
         </Link>

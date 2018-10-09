@@ -6,6 +6,11 @@ import { connect } from "react-redux";
 
 import AvatarImg from "../assets/img/tropperstorm.png";
 
+const logoStyle = {
+  width: "150px",
+  height: "auto"
+};
+
 class UserProfile extends Component {
   render() {
     const intl = this.props.intl;
@@ -14,11 +19,7 @@ class UserProfile extends Component {
     return (
       <div className="card bg-secondary text-white block-height">
         <h4 className="card-header bg-dark text-center">
-          <img
-            src={AvatarImg}
-            alt={profileAvatar}
-            style={{ width: "150px", height: "auto" }}
-          />
+          <img src={AvatarImg} alt={profileAvatar} style={logoStyle} />
         </h4>
         <div className="card-body bg-secondary">
           <ul className="list-group">
