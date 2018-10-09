@@ -52,7 +52,7 @@ npm run build
   - [Axios](#axios)
   - [React Intl](#react-intl)
   - [JW React Pagination Component](#jw-react-pagination-component)
-  - [Particles.js](#particles-js)
+  - [Particles-js](#particles-js)
   - [Bootstrap 4](#bootstrap-4)
   - [Star Wars API - SWAPI](#star-wars-api-swapi)
 
@@ -127,7 +127,7 @@ Para realizar a internacionalização da aplicação foi utilizado a biblioteca 
 ### [JW React Pagination Component](https://github.com/cornflourblue/jw-react-pagination)
 Para facilitar a paginação do site foi utilizado a biblioteca JW React Pagination Component.
 
-### [Particles.js](https://github.com/VincentGarreau/particles.js/)
+### [Particles-js](https://github.com/VincentGarreau/particles.js/)
 Para simular a animação do espaço e deixar o site bonito foi utilizado a biblioteca Particles.js.
 
 ### [Bootstrap 4](http://getbootstrap.com/docs/4.1/getting-started/introduction/)
