@@ -11,7 +11,7 @@ O site está traduzido em dois idiomas Português e Inglês, sendo que ele verif
 Obs: Se o usuário estiver numa localidade do idioma Português, é possível alterar as linhas de código no arquivo 'index.js' para testar o idioma Inglês, neste arquivo contém também a documentação para esta alteração.
 
 ## Instalação e execução
-Os comandos abaixos devem ser executados no prompt de comando dentro da pasta que se encontra o projeto.
+Depois de instalado o Node.js, abra o prompt de comando e dentro da pasta do projeto execute os comandos abaixo.
 
 Para instalar as dependências do projeto:
 ```
@@ -44,6 +44,8 @@ npm run build
 
 - [Tecnologias](#tecnologias)
   - [React](#react)
+  - [Node.js](#node.js)
+  - [Yarn](#yarn)
   - [Create React App](#create-react-app)
   - [React Router](#react-router)
   - [Redux](#redux)
@@ -102,6 +104,12 @@ Ao clicar em um item da categoria é possível visualizar seus detalhes.
 
 ### [React](https://github.com/facebook/react)
 Este site foi desenvolvido em React com conceitos de PWA e SPA.
+
+### [Node.js](https://nodejs.org/)
+É um interpretador de código JavaScript com o código aberto, focado em migrar o Javascript do lado do cliente para servidores.
+
+### [Yarn](https://yarnpkg.com/)
+Gerenciamento de dependências rápido, confiável e seguro.
 
 ### [Create React App](https://github.com/facebook/create-react-app)
 Para a criação da estrutura inicial do projeto foi utilizado o Create React App.
