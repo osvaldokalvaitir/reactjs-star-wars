@@ -44,7 +44,7 @@ npm run build
 
 - [Tecnologias](#tecnologias)
   - [React](#react)
-  - [Node.js](#node.js)
+  - [Nodejs](#node.js)
   - [Yarn](#yarn)
   - [Create React App](#create-react-app)
   - [React Router](#react-router)
