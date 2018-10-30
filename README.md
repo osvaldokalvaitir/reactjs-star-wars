@@ -105,7 +105,7 @@ Ao clicar em um item da categoria é possível visualizar seus detalhes.
 ### [React](https://github.com/facebook/react)
 Este site foi desenvolvido em React com conceitos de PWA e SPA.
 
-### [Node.js](https://nodejs.org/)
+### [Nodejs](https://nodejs.org/)
 É um interpretador de código JavaScript com o código aberto, focado em migrar o Javascript do lado do cliente para servidores.
 
 ### [Yarn](https://yarnpkg.com/)
