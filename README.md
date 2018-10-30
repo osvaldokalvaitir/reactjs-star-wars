@@ -4,13 +4,17 @@ This project was created in React making call in API and saving in Redux, and us
 
 Este projeto foi criado em React realizando chamada em API e salvando no Redux, e usando outras tecnologias web.
 
+
 ## Resumo
+
 Este site foi criado em React para que as informações vindas da API do Star Wars SWAPI sejam salvas no Redux.
 Então, se o site for atualizado todos os dados do Redux serão perdidos e o usuário terá que efetuar um novo registro no site.
 O site está traduzido em dois idiomas Português e Inglês, sendo que ele verifica a região em que o usuário se encontra e o traduz automaticamente.
 Obs: Se o usuário estiver numa localidade do idioma Português, é possível alterar as linhas de código no arquivo 'index.js' para testar o idioma Inglês, neste arquivo contém também a documentação para esta alteração.
 
+
 ## Instalação e execução
+
 Depois de instalado o Node.js, abra o prompt de comando e dentro da pasta do projeto execute os comandos abaixo.
 
 Para instalar as dependências do projeto:
@@ -27,6 +31,7 @@ Construir e executar o projeto:
 ```
 npm run build
 ```
+
 
 ## Índice
 
