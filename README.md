@@ -45,7 +45,6 @@ npm run build
 - [Tecnologias](#tecnologias)
   - [React](#react)
   - [Node.js](#nodejs)
-  - [Yarn](#yarn)
   - [Create React App](#create-react-app)
   - [React Router](#react-router)
   - [Redux](#redux)
@@ -107,9 +106,6 @@ Este site foi desenvolvido em React com conceitos de PWA e SPA.
 
 ### [Node.js](https://nodejs.org/)
 É um interpretador de código JavaScript com o código aberto, focado em migrar o Javascript do lado do cliente para servidores.
-
-### [Yarn](https://yarnpkg.com/)
-Gerenciamento de dependências rápido, confiável e seguro.
 
 ### [Create React App](https://github.com/facebook/create-react-app)
 Para a criação da estrutura inicial do projeto foi utilizado o Create React App.
