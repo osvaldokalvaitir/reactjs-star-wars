@@ -1,13 +1,13 @@
 ## Star Wars
 
-This project was created in React making call in API and saving in Redux, and using other technologies web.
+This project was created in React making call in API and saving the data in the Redux, and using other technologies web.
 
-Este projeto foi criado em React realizando chamada em API e salvando no Redux, e usando outras tecnologias web.
+Este projeto foi criado em React realizando chamada em API e salvando os dados no Redux, e usando outras tecnologias web.
 
 
 ## Resumo
 
-Este site foi criado em React para que as informações vindas da API do Star Wars SWAPI sejam salvas no Redux.
+Este projeto foi desenvolvido em React com conceitos de PWA e SPA, realizando a persistência temporária das informações vindas da API do Star Wars SWAPI no Redux.
 Então, se o site for atualizado todos os dados do Redux serão perdidos e o usuário terá que efetuar um novo registro no site.
 O site está traduzido em dois idiomas Português e Inglês, sendo que ele verifica a região em que o usuário se encontra e o traduz automaticamente.
 Obs: Se o usuário estiver numa localidade do idioma Português, é possível alterar as linhas de código no arquivo 'index.js' para testar o idioma Inglês, neste arquivo contém também a documentação para esta alteração.
@@ -52,7 +52,6 @@ npm run build
   - [Node.js](#nodejs)
 
 - [Bibliotecas](#bibliotecas)
-  - [React](#react)  
   - [Create React App](#create-react-app)
   - [React Router](#react-router)
   - [Redux](#redux)
@@ -63,6 +62,8 @@ npm run build
   - [JW React Pagination Component](#jw-react-pagination-component)
   - [Particles.js](#particlesjs)
   - [Bootstrap 4](#bootstrap-4)
+  
+- [APIs](#apis)
   - [Star Wars API - SWAPI](#star-wars-api-swapi)
 
 
@@ -118,9 +119,6 @@ Interpretador de código JavaScript com o código aberto, focado em migrar o Jav
 
 ## Bibliotecas
 
-### [React](https://github.com/facebook/react)
-Este projeto foi desenvolvido em React com conceitos de PWA e SPA.
-
 ### [Create React App](https://github.com/facebook/create-react-app)
 Cria aplicativos React sem configuração de compilação.
 
@@ -150,6 +148,9 @@ Biblioteca para criar partículas, utilizado no projeto para simular a animaçã
 
 ### [Bootstrap 4](http://getbootstrap.com/docs/4.1/getting-started/introduction/)
 Framework para criar sites responsivos e mobile.
+
+
+## APIs
 
 ### [Star Wars API: SWAPI](https://swapi.co/documentation#start)
 API que contém informações do Star Wars.
