@@ -53,7 +53,7 @@ const About = () => {
           <li className="nav-item">
             <a
               className="nav-link text-white"
-              href="https://blog.rocketseat.com.br/estrutura-redux-escalavel-com-ducks/"
+              href="https://github.com/erikras/ducks-modular-redux"
               target="_blank"
               rel="noopener noreferrer"
             >
