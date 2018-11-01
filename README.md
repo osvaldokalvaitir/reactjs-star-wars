@@ -153,4 +153,4 @@ Framework para criar sites responsivos e mobile.
 ## APIs
 
 ### [Star Wars API: SWAPI](https://swapi.co/documentation#start)
-API que contém informações do Star Wars.
+Contém informações do Star Wars.
