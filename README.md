@@ -48,8 +48,11 @@ npm run build
   - [Listagem](#listagem)
 
 - [Tecnologias](#tecnologias)
-  - [React](#react)
+  - [Visual Studio Code](#visual-studio-code)
   - [Node.js](#nodejs)
+
+- [Bibliotecas](#bibliotecas)
+  - [React](#react)  
   - [Create React App](#create-react-app)
   - [React Router](#react-router)
   - [Redux](#redux)
@@ -106,41 +109,47 @@ Ao clicar em um item da categoria é possível visualizar seus detalhes.
 
 ## Tecnologias
 
-### [React](https://github.com/facebook/react)
-Este site foi desenvolvido em React com conceitos de PWA e SPA.
+### [Visual Studio Code](https://code.visualstudio.com)
+Editor de código-fonte que inclui suporte para depuração, realce de sintaxe, complementação inteligente de código, snippets, entre outros.
 
 ### [Node.js](https://nodejs.org/)
-É um interpretador de código JavaScript com o código aberto, focado em migrar o Javascript do lado do cliente para servidores.
+Interpretador de código JavaScript com o código aberto, focado em migrar o Javascript do lado do cliente para servidores.
+
+
+## Bibliotecas
+
+### [React](https://github.com/facebook/react)
+Este projeto foi desenvolvido em React com conceitos de PWA e SPA.
 
 ### [Create React App](https://github.com/facebook/create-react-app)
-Para a criação da estrutura inicial do projeto foi utilizado o Create React App.
+Cria aplicativos React sem configuração de compilação.
 
 ### [React Router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
-Para o redirecionamento das rotas foi utilizado a biblioteca React Router.
+Realiza o redirecionamento das rotas.
 
 ### [Redux](https://github.com/reduxjs/redux)
-Para a persistência dos dados da API foi utilizado a biblioteca Redux.
+Contêiner de estado previsível para aplicativos JavaScript.
 
-### [Ducks](https://blog.rocketseat.com.br/estrutura-redux-escalavel-com-ducks/)
-Para uma estrutura de arquivos escalável no Redux foi utilizado o conceito do Ducks.
+### [Ducks](https://github.com/erikras/ducks-modular-redux)
+Conceito de agrupar peças do Redux em um módulo isolado que seja autônomo e possa ser facilmente empacotado em uma biblioteca.
 
 ### [Formik](https://github.com/jaredpalmer/formik)
-Para facilitar a criação de formulários foi utilizado a biblioteca Formik.
+Facilita a criação de formulários.
 
 ### [Axios](https://github.com/axios/axios)
-Para realizar as chamadas HTTP na API foi utilizado a biblioteca Axios.
+Cliente HTTP baseado em promessas.
 
 ### [React Intl](https://github.com/yahoo/react-intl)
-Para realizar a internacionalização da aplicação foi utilizado a biblioteca React Intl.
+Fornece componentes e uma API para formatar datas, números e strings, incluindo pluralização e manipulação de traduções.
 
 ### [JW React Pagination Component](https://github.com/cornflourblue/jw-react-pagination)
-Para facilitar a paginação do site foi utilizado a biblioteca JW React Pagination Component.
+Componente que realiza a paginação de dados.
 
 ### [Particles.js](https://github.com/VincentGarreau/particles.js/)
-Para simular a animação do espaço e deixar o site mais bonito foi utilizado a biblioteca Particles.js.
+Biblioteca para criar partículas, utilizado no projeto para simular a animação do espaço.
 
 ### [Bootstrap 4](http://getbootstrap.com/docs/4.1/getting-started/introduction/)
-Para o site ter um design bonito e responsivo foi utilizado o Bootstrap 4.
+Framework para criar sites responsivos e mobile.
 
 ### [Star Wars API: SWAPI](https://swapi.co/documentation#start)
-Para a coleta das informações foram feitas chamadas na API do Star Wars: SWAPI.
+API que contém informações do Star Wars.
