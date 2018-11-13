@@ -39,6 +39,7 @@ npm run build
   - [Login](#login)
   - [Registro](#registro)
   - [Início](#inicio)
+  - [Informação](#informacao)
   - [Sobre](#sobre)
 
 - [Componentes](#componentes)
@@ -70,18 +71,21 @@ npm run build
 ## Telas
 
 ### Login
+![Screenshoot Login](https://github.com/osvaldokalvaitir/starwars/blob/master/screenshot/Login.png)
 Esta é a primeira tela do site, para entrar o usuário terá que digitar seu usuário e senha registrados.
 Se o usário não tem ainda um cadastro no site, precisa clicar em 'Criar uma.' que será redirecionado a página de registro.
-Composto por: Rodapé
 
 ### Registro
 Esta tela é responsável pelo registro do usuário onde serão obrigatórios os preenchimentos dos campos.
 Os campos são: nome, nome de usuário, e-mail, cidade, estado, senha e precisa declarar também que é fã do Star Wars.
-Composto por: Rodapé
 
 ### Início
 Esta é a tela principal do site, onde você vai encontrar todas as informações sobre o Star Wars que são dividas em categorias.
 Composto por: Cabeçalho, Perfil, Listagem e Rodapé
+
+### Informação
+Nesta tela encontram-se os detalhes do item selecionado pelo usuário.
+Composto por: Cabeçalho, Perfil e Rodapé
 
 ### Sobre
 Nesta tela se encontra a versão do site e as tecnologias que foram utilizadas para construí-lo.
