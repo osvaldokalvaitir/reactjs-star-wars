@@ -64,10 +64,10 @@ npm run build | yarn run build
       - [DotEnv](#dotenv)
       - [Dracula Official](#dracula-official)
       - [EditorConfig for VS Code](#editorconfig-for-vs-code)
-      - [ESLint](#eslint-extensao)
+      - [ESLint](#eslint-for-vs-code)
       - [Markdown All in One](#markdown-all-in-one)
       - [Material Icon Theme](#material-icon-theme)
-      - [Nunjucks](#nunjucks-extensao)
+      - [Nunjucks](#nunjucks-for-vs-code)
       - [Prettier - Code formatter](#prettier---code-formatter)
 
     - [Configurações](#configurações)
@@ -177,7 +177,7 @@ Tema para o VSCode.
 
 Utilizado para padronizar quebra de linha, indentação, espaços e tabs entre desenvolvedores de um mesmo projeto.
 
-##### [ESLint (Extensão)](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+##### [ESLint for VS Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 Utilizado para padronizar código entre desenvolvedores como utilização de pontos e vírgulas, tamanho máximo de caracteres em linhas e todo outro tipo de padronização.
 
@@ -189,7 +189,7 @@ Utilizado para escrever e ler Markdown dentro do VSCode, muito útil para docume
 
 Utilizado para exibir os ícones de acordo com a linguagem utilizada na barra lateral.
 
-##### [Nunjucks (Extensão)](https://marketplace.visualstudio.com/items?itemName=ronnidc.nunjucks)
+##### [Nunjucks for VS Code](https://marketplace.visualstudio.com/items?itemName=ronnidc.nunjucks)
 
 Utilizado para ter suporte à sintaxe .njk.
 
