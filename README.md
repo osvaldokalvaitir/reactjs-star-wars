@@ -64,10 +64,10 @@ npm run build | yarn run build
       - [DotEnv](#dotenv)
       - [Dracula Official](#dracula-official)
       - [EditorConfig for VS Code](#editorconfig-for-vs-code)
-      - [ESLint](#eslint)
+      - [ESLint](#eslint-extensao)
       - [Markdown All in One](#markdown-all-in-one)
       - [Material Icon Theme](#material-icon-theme)
-      - [Nunjucks](#nunjucks)
+      - [Nunjucks](#nunjucks-extensao)
       - [Prettier - Code formatter](#prettier---code-formatter)
 
     - [Configurações](#configurações)
