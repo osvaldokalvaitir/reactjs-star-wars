@@ -1,4 +1,4 @@
-## Star Wars
+# Star Wars
 
 This project was created in React making call in API and saving the data in the Redux, and using other technologies web.
 
