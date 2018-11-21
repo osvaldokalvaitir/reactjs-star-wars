@@ -1,15 +1,15 @@
-import React, { Component } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import React, { Component } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import { connect } from "react-redux";
+import { connect } from 'react-redux';
 
-import SignUp from "./pages/SignUp";
-import Login from "./pages/Login";
-import Template from "./components/Template";
+import SignUp from './pages/SignUp';
+import Login from './pages/Login';
+import Template from './components/Template';
 
 class App extends Component {
   shouldComponentUpdate(nextProps, nextState) {
-    let shouldUpdate = this.props.auth.isLogged !== nextProps.auth.isLogged;
+    const shouldUpdate = this.props.auth.isLogged !== nextProps.auth.isLogged;
     return shouldUpdate;
   }
 
@@ -18,10 +18,7 @@ class App extends Component {
       <BrowserRouter>
         <Switch>
           <Route exact path="/signup" component={SignUp} />
-          <Route
-            path="/"
-            component={this.props.auth.isLogged ? Template : Login}
-          />
+          <Route path="/" component={this.props.auth.isLogged ? Template : Login} />
         </Switch>
       </BrowserRouter>
     );
@@ -29,10 +26,10 @@ class App extends Component {
 }
 
 const mapStateToProps = state => ({
-  auth: state.auth
+  auth: state.auth,
 });
 
 export default connect(
   mapStateToProps,
-  null
+  null,
 )(App);

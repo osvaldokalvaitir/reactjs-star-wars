@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -15,7 +16,7 @@ body {
   margin-top: 0em;
   display: -ms-flexbox;
   display: -webkit-box;
-  display: flex; 
+  display: flex;
   -ms-flex-align: center;
   -ms-flex-pack: center;
   -webkit-box-align: center;
@@ -23,7 +24,7 @@ body {
   -webkit-box-pack: center;
   justify-content: center;
   padding-top: 40px;
-  padding-bottom: 40px;  
+  padding-bottom: 40px;
   background-color: #000000;
 }
 
@@ -32,7 +33,7 @@ form {
   margin-top: 0em;
 }
 
-.form-login{
+.form-login {
   width: 100%;
   min-width: 400px;
   max-width: 450px;
@@ -40,7 +41,7 @@ form {
   margin: 0 auto;
 }
 
-.form-signup{
+.form-signup {
   width: 100%;
   min-width: 550px;
   max-width: 600px;
@@ -48,12 +49,12 @@ form {
   margin: 0 auto;
 }
 
-.template{
+.template {
   display: block;
-  margin-top: 0em;  
+  margin-top: 0em;
   width: 100%;
   padding: 15px;
-  margin: 0 auto;   
+  margin: 0 auto;
 }
 
 @media (max-width: 550px) {

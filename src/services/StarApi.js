@@ -1,10 +1,10 @@
-import axios from "axios";
+import axios from 'axios';
 
 const StarApi = axios.create({
-  baseURL: "https://swapi.co/api/",
+  baseURL: 'https://swapi.co/api/',
   headers: {
-    "content-type": "application/json"
-  }
+    'content-type': 'application/json',
+  },
 });
 
 export default StarApi;
