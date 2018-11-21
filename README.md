@@ -179,7 +179,7 @@ Utilizado para padronizar quebra de linha, indentação, espaços e tabs entre d
 
 ##### [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-Utilizado para padronizar código entre desenvolvedores como utilização de pontos e vírgulas, tamanho máximo de caracteres em linhas e todo outro tipo de padronização. Recomendado a utilização desse plugin junto aos guias de estilo do [AirBnB](https://www.npmjs.com/package/eslint-config-airbnb-base)
+Utilizado para padronizar código entre desenvolvedores como utilização de pontos e vírgulas, tamanho máximo de caracteres em linhas e todo outro tipo de padronização.
 
 ##### [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 
@@ -249,7 +249,7 @@ Cria aplicativos React sem configuração de compilação.
 
 ### [ESLint](https://github.com/eslint/eslint)
 
-Ferramenta para identificar e relatar padrões em JavaScript.
+Ferramenta para identificar e relatar padrões em JavaScript. Se o projeto for em Node é recomendado a utilização do guia de estilo 'Standard' e se for em React o guia de estilo do [AirBnB](https://www.npmjs.com/package/eslint-config-airbnb-base).
 
 ### [React Router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
 
