@@ -67,6 +67,7 @@ npm run build | yarn run build
       - [ESLint](#eslint)
       - [Markdown All in One](#markdown-all-in-one)
       - [Material Icon Theme](#material-icon-theme)
+      - [Nunjucks](#nunjucks)
       - [Prettier - Code formatter](#prettier---code-formatter)
 
     - [Configurações](#configurações)
@@ -156,7 +157,7 @@ Editor de código-fonte que inclui suporte para depuração, realce de sintaxe, 
 
 ##### [Fira Code](https://github.com/tonsky/FiraCode)
 
-Adicionar fonte no sistema operacional.
+Fonte monoespaçada com ligaduras de programação. É necessário adicionar a fonte no sistema operacional.
 
 #### Extensões
 
@@ -187,6 +188,10 @@ Utilizado para escrever e ler Markdown dentro do VSCode, muito útil para docume
 ##### [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 Utilizado para exibir os ícones de acordo com a linguagem utilizada na barra lateral.
+
+##### [Nunjucks](https://marketplace.visualstudio.com/items?itemName=ronnidc.nunjucks)
+
+Utilizado para ter suporte à sintaxe .njk.
 
 ##### [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
