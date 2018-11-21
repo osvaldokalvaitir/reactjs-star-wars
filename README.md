@@ -61,13 +61,13 @@ npm run build | yarn run build
     - [Extensões](#extensões)
 
       - [Color Highlight](#color-highlight)
-      - [DotEnv](#dontenv)
+      - [DotEnv](#dotenv)
       - [Dracula Official](#dracula-official)
-      - [EditorConfig for VS Code](#editorconfig)
+      - [EditorConfig for VS Code](#editorconfig-for-vs-code)
       - [ESLint](#eslint)
       - [Markdown All in One](#markdown-all-in-one)
       - [Material Icon Theme](#material-icon-theme)
-      - [Prettier - Code formatter](#prettier)
+      - [Prettier - Code formatter](#prettier---code-formatter)
 
     - [Configurações](#configurações)
 
