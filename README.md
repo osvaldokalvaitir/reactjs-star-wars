@@ -53,6 +53,24 @@ npm run build | yarn run build
 - [Tecnologias](#tecnologias)
 
   - [Visual Studio Code](#visual-studio-code)
+
+    - [Fonte](#fonte)
+
+      - [Fira Code](#fira-code)
+
+    - [Extensões](#extensões)
+
+      - [Color Highlight](#color-highlight)
+      - [DotEnv](#dontenv)
+      - [Dracula Official](#dracula-official)
+      - [EditorConfig for VS Code](#editorconfig)
+      - [ESLint](#eslint)
+      - [Markdown All in One](#markdown-all-in-one)
+      - [Material Icon Theme](#material-icon-theme)
+      - [Prettier - Code formatter](#prettier)
+
+    - [Configurações](#configurações)
+
   - [Node.js](#nodejs)
   - [Yarn](#yarn)
 
