@@ -143,9 +143,9 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings) e siga as C
 
 ### Outros
 
-[Bootstrap](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/bootstrap.md)
+[Bootstrap](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/bootstrap.md)
 
-[Ducks](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/ducks.md)
+[Ducks](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/ducks.md)
 
 ### APIs
 
