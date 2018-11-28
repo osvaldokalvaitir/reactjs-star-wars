@@ -34,7 +34,7 @@ Obs: Se o usuário estiver numa localidade do idioma Português, é possível al
 
   - [Bibliotecas do Node.js](#bibliotecas-do-nodejs)
 
-  - [Outros](#outros)
+  - [Outros do Node.js](#outros-do-nodejs)
 
   - [APIs](#apis)
 
@@ -141,7 +141,7 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings) e siga as C
 
 [Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux.md)
 
-### Outros
+### Outros do Node.js
 
 [Bootstrap](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/bootstrap.md)
 
