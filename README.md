@@ -34,6 +34,8 @@ Obs: Se o usuário estiver numa localidade do idioma Português, é possível al
 
   - [Bibliotecas do Node.js](#bibliotecas-do-nodejs)
 
+  - [Outros](#outros)
+
   - [APIs](#apis)
 
 ## Telas
@@ -121,31 +123,29 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings) e siga as C
 
 ### Bibliotecas do Node.js
 
+[Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
+
 [Create React App](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md)
 
 [ESLint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint.md)
 
-[React Router](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-router.md)
-
-[Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux.md)
-
-[Ducks](https://github.com/erikras/ducks-modular-redux)
-
-Conceito de agrupar peças do Redux em um módulo isolado que seja autônomo e possa ser facilmente empacotado em uma biblioteca.
-
 [Formik](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/formik.md)
-
-[Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
-
-[React Intl](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-intl.md)
 
 [JW React Pagination Component](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/jw-react-pagination-component.md)
 
 [Particles.js](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/particlesjs.md)
 
-[Bootstrap 4](http://getbootstrap.com/docs/4.1/getting-started/introduction/)
+[React Intl](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-intl.md)
 
-Framework para criar sites responsivos e mobile.
+[React Router](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-router.md)
+
+[Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux.md)
+
+### Outros
+
+[Bootstrap](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/bootstrap.md)
+
+[Ducks](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/ducks.md)
 
 ### APIs
 
