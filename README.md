@@ -1,7 +1,5 @@
 # Star Wars
 
-This project was created in React making call in API and saving the data in the Redux, and using other technologies web.
-
 Este projeto foi criado em React realizando chamada em API e salvando os dados no Redux, e usando outras tecnologias web.
 
 ## Resumo
@@ -121,34 +119,34 @@ npm run build | yarn run build
 
 Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings) e siga as Configurações Iniciais.
 
-## Bibliotecas do Node.js
+### Bibliotecas do Node.js
 
-### [Create React App](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md)
+[Create React App](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md)
 
-### [ESLint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint.md)
+[ESLint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint.md)
 
-### [React Router](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-router.md)
+[React Router](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-router.md)
 
-### [Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux.md)
+[Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux.md)
 
-### [Ducks](https://github.com/erikras/ducks-modular-redux)
+[Ducks](https://github.com/erikras/ducks-modular-redux)
 
 Conceito de agrupar peças do Redux em um módulo isolado que seja autônomo e possa ser facilmente empacotado em uma biblioteca.
 
-### [Formik](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/formik.md)
+[Formik](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/formik.md)
 
-### [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
+[Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
 
-### [React Intl](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-intl.md)
+[React Intl](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-intl.md)
 
-### [JW React Pagination Component](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/jw-react-pagination-component.md)
+[JW React Pagination Component](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/jw-react-pagination-component.md)
 
-### [Particles.js](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/particlesjs.md)
+[Particles.js](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/particlesjs.md)
 
-### [Bootstrap 4](http://getbootstrap.com/docs/4.1/getting-started/introduction/)
+[Bootstrap 4](http://getbootstrap.com/docs/4.1/getting-started/introduction/)
 
 Framework para criar sites responsivos e mobile.
 
-## APIs
+### APIs
 
-### [Star Wars API: SWAPI](https://swapi.co/documentation#start)
+[Star Wars API: SWAPI](https://swapi.co/documentation#start)
