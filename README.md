@@ -11,28 +11,6 @@ Então, se o site for atualizado todos os dados do Redux serão perdidos e o usu
 O site está traduzido em dois idiomas Português e Inglês, sendo que ele verifica a região em que o usuário se encontra e o traduz automaticamente.
 Obs: Se o usuário estiver numa localidade do idioma Português, é possível alterar as linhas de código no arquivo 'index.js' para testar o idioma Inglês, neste arquivo contém também a documentação para esta alteração.
 
-## Instalação e execução
-
-Depois de instalado o Node.js, abra o prompt de comando e dentro da pasta do projeto execute os comandos abaixo.
-
-Para instalar as dependências do projeto:
-
-```
-npm install | yarn install
-```
-
-Executar o projeto localmente:
-
-```
-npm start | yarn start
-```
-
-Construir e executar o projeto:
-
-```
-npm run build | yarn run build
-```
-
 ## Índice
 
 - [Telas](#telas)
@@ -50,47 +28,15 @@ npm run build | yarn run build
   - [Perfil](#perfil)
   - [Listagem](#listagem)
 
-- [Tecnologias](#tecnologias)
+- [Instalação e execução](#instalação-e-execução)
 
-  - [Visual Studio Code](#visual-studio-code)
+- [Desenvolvimento](#desenvolvimento)
 
-    - [Fonte](#fonte)
+  - [Configurações Iniciais](#configurações-iniciais)
 
-      - [Fira Code](#fira-code)
+  - [Bibliotecas do Node.js](#bibliotecas-do-nodejs)
 
-    - [Extensões](#extensões)
-
-      - [Color Highlight](#color-highlight)
-      - [DotEnv](#dotenv)
-      - [Dracula Official](#dracula-official)
-      - [EditorConfig for VS Code](#editorconfig-for-vs-code)
-      - [ESLint](#eslint-for-vs-code)
-      - [Markdown All in One](#markdown-all-in-one)
-      - [Material Icon Theme](#material-icon-theme)
-      - [Nunjucks](#nunjucks-for-vs-code)
-      - [Prettier - Code formatter](#prettier---code-formatter)
-
-    - [Configurações](#configurações)
-
-  - [Node.js](#nodejs)
-  - [Yarn](#yarn)
-
-- [Bibliotecas](#bibliotecas)
-
-  - [Create React App](#create-react-app)
-  - [ESLint](#eslint)
-  - [React Router](#react-router)
-  - [Redux](#redux)
-  - [Ducks](#ducks)
-  - [Formik](#formik)
-  - [Axios](#axios)
-  - [React Intl](#react-intl)
-  - [JW React Pagination Component](#jw-react-pagination-component)
-  - [Particles.js](#particlesjs)
-  - [Bootstrap 4](#bootstrap-4)
-
-- [APIs](#apis)
-  - [Star Wars API - SWAPI](#star-wars-api-swapi)
+  - [APIs](#apis)
 
 ## Telas
 
@@ -147,141 +93,57 @@ As categorias são: pessoas, planetas, espécies, naves estelares e veículos.
 Selecionando uma categoria aparecerá uma listagem específica de acordo com a mesma.
 Ao clicar em um item da categoria é possível visualizar seus detalhes.
 
-## Tecnologias
+## Instalação e execução
 
-### [Visual Studio Code](https://code.visualstudio.com)
+Depois de instalado o Node.js, abra o prompt de comando e dentro da pasta do projeto execute os comandos abaixo.
 
-Editor de código-fonte que inclui suporte para depuração, realce de sintaxe, complementação inteligente de código, snippets, entre outros.
-
-#### Fonte
-
-##### [Fira Code](https://github.com/tonsky/FiraCode)
-
-Fonte monoespaçada com ligaduras de programação. É necessário adicionar a fonte no sistema operacional.
-
-#### Extensões
-
-##### [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
-
-Exibe a cor exata de todos RGB’s ou HEX em seu código, muito útil para trabalhar com CSS ou SASS.
-
-##### [DotEnv](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
-
-Utilizado para ter suporte à sintaxe .env, muito útil para quem trabalha com NodeJS, ReactJS ou qualquer outro tipo de projeto web.
-
-##### [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
-
-Tema para o VSCode.
-
-##### [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-
-Utilizado para padronizar quebra de linha, indentação, espaços e tabs entre desenvolvedores de um mesmo projeto.
-
-##### [ESLint for VS Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
-Utilizado para padronizar código entre desenvolvedores como utilização de pontos e vírgulas, tamanho máximo de caracteres em linhas e todo outro tipo de padronização.
-
-##### [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
-
-Utilizado para escrever e ler Markdown dentro do VSCode, muito útil para documentações o README’s do Github.
-
-##### [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-
-Utilizado para exibir os ícones de acordo com a linguagem utilizada na barra lateral.
-
-##### [Nunjucks for VS Code](https://marketplace.visualstudio.com/items?itemName=ronnidc.nunjucks)
-
-Utilizado para ter suporte à sintaxe .njk.
-
-##### [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-
-Utilizado para formatar JavaScript / TypeScript / CSS.
-
-#### Configurações
-
-Depois de adicionar a fonte e as extensões, setar as configurações (Settings > Open settings.json):
+Para instalar as dependências do projeto:
 
 ```
-{
-  // Define o tema do VSCode
-  "workbench.colorTheme":"Dracula",
-
-  // Configura tamanho e família da fonte
-  "editor.fontSize":16,
-  "editor.lineHeight":24,
-  "editor.fontFamily":"Fira Code",
-  "editor.fontLigatures":true,
-
-  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
-  "editor.rulers": [
-    80,
-    120
-  ],
-
-  // Aplica um sinal visual na esquerda da linha selecionada
-  "editor.renderLineHighlight":"gutter",
-
-  // Aumenta a fonte do terminal
-  "terminal.integrated.fontSize":14,
-
-  // Define o tema dos ícones na sidebar
-  "workbench.iconTheme":"material-icon-theme",
-
-  // Configura o Prettier e o ESLint
-  "prettier.eslintIntegration": true,
-  "editor.formatOnSave": true
-}
+npm install | yarn install
 ```
 
-### [Node.js](https://nodejs.org/)
+Executar o projeto localmente:
 
-Interpretador de código JavaScript com o código aberto, focado em migrar o Javascript do lado do cliente para servidores.
+```
+npm start | yarn start
+```
 
-### [Yarn](https://yarnpkg.com)
+Construir e executar o projeto:
 
-Gerenciamento de dependências rápido, confiável e seguro.
+```
+npm run build | yarn run build
+```
 
-## Bibliotecas
+## Desenvolvimento
 
-### [Create React App](https://github.com/facebook/create-react-app)
+### Configurações Iniciais
 
-Cria aplicativos React sem configuração de compilação.
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings) e siga as Configurações Iniciais.
 
-### [ESLint](https://github.com/eslint/eslint)
+## Bibliotecas do Node.js
 
-Ferramenta para identificar e relatar padrões em JavaScript. Se o projeto for em Node é recomendado a utilização do guia de estilo 'Standard' e se for em React o guia de estilo do [AirBnB](https://www.npmjs.com/package/eslint-config-airbnb-base).
+### [Create React App](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md)
 
-### [React Router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
+### [ESLint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint.md)
 
-Realiza o redirecionamento das rotas.
+### [React Router](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-router.md)
 
-### [Redux](https://github.com/reduxjs/redux)
-
-Contêiner de estado previsível para aplicativos JavaScript.
+### [Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux.md)
 
 ### [Ducks](https://github.com/erikras/ducks-modular-redux)
 
 Conceito de agrupar peças do Redux em um módulo isolado que seja autônomo e possa ser facilmente empacotado em uma biblioteca.
 
-### [Formik](https://github.com/jaredpalmer/formik)
+### [Formik](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/formik.md)
 
-Facilita a criação de formulários.
+### [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
 
-### [Axios](https://github.com/axios/axios)
+### [React Intl](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-intl.md)
 
-Cliente HTTP baseado em promessas.
+### [JW React Pagination Component](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/jw-react-pagination-component.md)
 
-### [React Intl](https://github.com/yahoo/react-intl)
-
-Fornece componentes e uma API para formatar datas, números e strings, incluindo pluralização e manipulação de traduções.
-
-### [JW React Pagination Component](https://github.com/cornflourblue/jw-react-pagination)
-
-Componente que realiza a paginação de dados.
-
-### [Particles.js](https://github.com/VincentGarreau/particles.js/)
-
-Biblioteca para criar partículas, utilizado no projeto para simular a animação do espaço.
+### [Particles.js](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/particlesjs.md)
 
 ### [Bootstrap 4](http://getbootstrap.com/docs/4.1/getting-started/introduction/)
 
@@ -290,5 +152,3 @@ Framework para criar sites responsivos e mobile.
 ## APIs
 
 ### [Star Wars API: SWAPI](https://swapi.co/documentation#start)
-
-Contém informações do Star Wars.
