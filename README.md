@@ -26,9 +26,9 @@ Obs: Se o usuário estiver numa localidade do idioma Português, é possível al
   - [Perfil](#perfil)
   - [Listagem](#listagem)
 
-- [Instalação e execução](#instalação-e-execução)
-
 - [Desenvolvimento](#desenvolvimento)
+
+  - [Instalação e execução](#instalação-e-execução)
 
   - [Configurações Iniciais](#configurações-iniciais)
 
@@ -93,7 +93,13 @@ As categorias são: pessoas, planetas, espécies, naves estelares e veículos.
 Selecionando uma categoria aparecerá uma listagem específica de acordo com a mesma.
 Ao clicar em um item da categoria é possível visualizar seus detalhes.
 
-## Instalação e execução
+## Desenvolvimento
+
+### Configurações Iniciais
+
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings) e siga as Configurações Iniciais.
+
+### Instalação e execução
 
 Depois de instalado o Node.js, abra o prompt de comando e dentro da pasta do projeto execute os comandos abaixo.
 
@@ -114,12 +120,6 @@ Construir e executar o projeto:
 ```
 npm run build | yarn run build
 ```
-
-## Desenvolvimento
-
-### Configurações Iniciais
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings) e siga as Configurações Iniciais.
 
 ### Bibliotecas do Node.js
 
