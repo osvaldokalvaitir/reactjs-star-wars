@@ -106,7 +106,7 @@ Depois de instalado o Node.js/Yarn, abra o prompt de comando e dentro da pasta d
 Para instalar as dependências do projeto:
 
 ```
-npm install | yarn install
+npm install | yarn
 ```
 
 Executar o projeto localmente:
