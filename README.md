@@ -28,9 +28,9 @@ Obs: Se o usuário estiver numa localidade do idioma Português, é possível al
 
 - [Desenvolvimento](#desenvolvimento)
 
-  - [Instalação e execução](#instalação-e-execução)
-
   - [Configurações Iniciais](#configurações-iniciais)
+
+  - [Instalação e execução](#instalação-e-execução)
 
   - [Bibliotecas do Node.js](#bibliotecas-do-nodejs)
 
