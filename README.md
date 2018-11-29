@@ -101,7 +101,7 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings) e siga as C
 
 ### Instalação e execução
 
-Depois de instalado o Node.js, abra o prompt de comando e dentro da pasta do projeto execute os comandos abaixo.
+Depois de instalado o Node.js/Yarn, abra o prompt de comando e dentro da pasta do projeto execute os comandos abaixo.
 
 Para instalar as dependências do projeto:
 
