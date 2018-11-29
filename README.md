@@ -30,7 +30,7 @@ Obs: Se o usuário estiver numa localidade do idioma Português, é possível al
 
   - [Configurações Iniciais](#configurações-iniciais)
 
-  - [Instalação e execução](#instalação-e-execução)
+  - [Instalação e Execução](#instalação-e-execução)
 
   - [Bibliotecas do Node.js](#bibliotecas-do-nodejs)
 
@@ -99,7 +99,7 @@ Ao clicar em um item da categoria é possível visualizar seus detalhes.
 
 Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings) e siga as Configurações Iniciais.
 
-### Instalação e execução
+### Instalação e Execução
 
 Depois de instalado o Node.js/Yarn, abra o prompt de comando e dentro da pasta do projeto execute os comandos abaixo.
 
