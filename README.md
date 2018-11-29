@@ -123,30 +123,30 @@ npm run build | yarn run build
 
 ### Bibliotecas do Node.js
 
-[Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
+- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
 
-[Create React App](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md)
+- [Create React App](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md)
 
-[ESLint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint.md)
+- [ESLint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint.md)
 
-[Formik](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/formik.md)
+- [Formik](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/formik.md)
 
-[JW React Pagination Component](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/jw-react-pagination-component.md)
+- [JW React Pagination Component](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/jw-react-pagination-component.md)
 
-[Particles.js](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/particlesjs.md)
+- [Particles.js](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/particlesjs.md)
 
-[React Intl](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-intl.md)
+- [React Intl](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-intl.md)
 
-[React Router](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-router.md)
+- [React Router](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-router.md)
 
-[Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux.md)
+- [Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux.md)
 
 ### Outros do Node.js
 
-[Bootstrap](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/bootstrap.md)
+- [Bootstrap](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/bootstrap.md)
 
-[Ducks](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/ducks.md)
+- [Ducks](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/ducks.md)
 
 ### APIs
 
-[Star Wars API: SWAPI](https://swapi.co/documentation#start)
+- [Star Wars API: SWAPI](https://swapi.co/documentation#start)
