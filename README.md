@@ -30,7 +30,9 @@ Obs: Se o usuário estiver numa localidade do idioma Português, é possível al
 
   - [Configurações Iniciais](#configurações-iniciais)
 
-  - [Instalação e Execução](#instalação-e-execução)
+  - [Instalação do Projeto](#instalação-do-projeto)
+  
+  - [Execução do Projeto](#execução-do-projeto)
 
   - [Bibliotecas do Node.js](#bibliotecas-do-nodejs)
 
@@ -97,29 +99,15 @@ Ao clicar em um item da categoria é possível visualizar seus detalhes.
 
 ### Configurações Iniciais
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings) e siga as Configurações Iniciais.
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga as Configurações Iniciais.
 
-### Instalação e Execução
+### Instalação do Projeto
 
-Depois de instalado o Node.js/Yarn, abra o prompt de comando e dentro da pasta do projeto execute os comandos abaixo.
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga a Instalação de Projeto.
 
-Para instalar as dependências do projeto:
+### Execução do Projeto
 
-```
-npm install | yarn
-```
-
-Executar o projeto localmente:
-
-```
-npm start | yarn start
-```
-
-Construir e executar o projeto:
-
-```
-npm run build | yarn run build
-```
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md) e siga a Execução de Projeto.
 
 ### Bibliotecas do Node.js
 
