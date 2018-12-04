@@ -1,10 +1,10 @@
 # Star Wars
 
-Este projeto foi criado em React realizando chamada em API e salvando os dados no Redux, e usando outras tecnologias web.
+Esta aplicação foi criada em React realizando chamada em API e salvando os dados no Redux, e usando outras tecnologias web.
 
 ## Resumo
 
-Este projeto foi desenvolvido em React com conceitos de PWA e SPA, realizando a persistência temporária das informações vindas da API do Star Wars SWAPI no Redux.
+Esta aplicação foi desenvolvida em React com conceitos de PWA e SPA, realizando a persistência temporária das informações vindas da API do Star Wars SWAPI no Redux.
 Então, se o site for atualizado todos os dados do Redux serão perdidos e o usuário terá que efetuar um novo registro no site.
 O site está traduzido em dois idiomas Português e Inglês, sendo que ele verifica a região em que o usuário se encontra e o traduz automaticamente.
 Obs: Se o usuário estiver numa localidade do idioma Português, é possível alterar as linhas de código no arquivo 'index.js' para testar o idioma Inglês, neste arquivo contém também a documentação para esta alteração.
