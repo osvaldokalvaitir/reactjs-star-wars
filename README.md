@@ -1,6 +1,13 @@
 # Star Wars
 
 ![AppVeyor](https://img.shields.io/appveyor/ci/osvaldokalvaitir/starwars.svg)
+![David](https://img.shields.io/david/osvaldokalvaitir/starwars.svg)
+![David](https://img.shields.io/david/dev/osvaldokalvaitir/starwars.svg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/badges/shields.svg)
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/badges/shields.svg)
+![GitHub language count](https://img.shields.io/github/languages/count/badges/shields.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)
 
 Esta aplicação foi criada em React realizando chamada em API e salvando os dados no Redux, e usando outras tecnologias web.
 
