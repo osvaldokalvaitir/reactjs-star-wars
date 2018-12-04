@@ -1,7 +1,6 @@
 # Star Wars
 
 ![David](https://img.shields.io/david/osvaldokalvaitir/starwars.svg)
-![David](https://img.shields.io/david/dev/osvaldokalvaitir/starwars.svg)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/badges/shields.svg)
 ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/badges/shields.svg)
 ![GitHub top language](https://img.shields.io/github/languages/top/badges/shields.svg)
