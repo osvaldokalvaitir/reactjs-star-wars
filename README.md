@@ -1,6 +1,6 @@
 # Star Wars
 
-https://img.shields.io/appveyor/ci/osvaldokalvaitir/starwars.svg
+![AppVeyor](https://img.shields.io/appveyor/ci/osvaldokalvaitir/starwars.svg)
 
 Esta aplicação foi criada em React realizando chamada em API e salvando os dados no Redux, e usando outras tecnologias web.
 
