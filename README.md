@@ -14,16 +14,23 @@ Obs: Se o usuário estiver numa localidade do idioma Português, é possível al
 - [Telas](#telas)
 
   - [Login](#login)
+  
   - [Registro](#registro)
+  
   - [Início](#inicio)
+  
   - [Informação](#informacao)
+  
   - [Sobre](#sobre)
 
 - [Componentes](#componentes)
 
   - [Cabeçalho](#cabeçalho)
+
   - [Rodapé](#rodapé)
+  
   - [Perfil](#perfil)
+  
   - [Listagem](#listagem)
 
 - [Desenvolvimento](#desenvolvimento)
@@ -34,9 +41,7 @@ Obs: Se o usuário estiver numa localidade do idioma Português, é possível al
   
   - [Execução do Projeto](#execução-do-projeto)
 
-  - [Bibliotecas do Node.js](#bibliotecas-do-nodejs)
-
-  - [Outros do Node.js](#outros-do-nodejs)
+  - [Bibliotecas](#bibliotecas)
 
   - [APIs](#apis)
 
@@ -109,11 +114,15 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md) e siga a Execução de Projeto.
 
-### Bibliotecas do Node.js
+### Bibliotecas
 
 - [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
 
+- [Bootstrap](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/bootstrap.md)
+
 - [Create React App](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md)
+
+- [Ducks](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/ducks.md)
 
 - [ESLint](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint.md)
 
@@ -128,12 +137,6 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 - [React Router](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-router.md)
 
 - [Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux.md)
-
-### Outros do Node.js
-
-- [Bootstrap](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/bootstrap.md)
-
-- [Ducks](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/ducks.md)
 
 ### APIs
 
