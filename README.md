@@ -118,7 +118,7 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 - [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
 
-- [Bootstrap](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/bootstrap.md)
+- [Bootstrap](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/bootstrap.md) - Seguir CDN
 
 - [Create React App](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md)
 
