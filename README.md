@@ -17,7 +17,7 @@ Obs: Se o usuário estiver numa localidade do idioma Português, é possível al
   
   - [Registro](#registro)
   
-  - [Início](#inicio)
+  - [Início](#início)
   
   - [Informação](#informacao)
   
