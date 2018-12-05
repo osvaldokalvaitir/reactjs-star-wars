@@ -1,5 +1,7 @@
 # Star Wars
 
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/badges/shields.svg)](https://github.com/osvaldokalvaitir/starwars)
+
 Esta aplicação foi criada em React realizando chamada em API e salvando os dados no Redux, e usando outras tecnologias web.
 
 ## Resumo
