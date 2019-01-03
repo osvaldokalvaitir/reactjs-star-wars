@@ -14,13 +14,13 @@ Obs: Se o usuário estiver numa localidade do idioma Português, é possível al
 - [Telas](#telas)
 
   - [Login](#login)
-  
+
   - [Registro](#registro)
-  
+
   - [Início](#início)
-  
+
   - [Informação](#informacao)
-  
+
   - [Sobre](#sobre)
 
 - [Componentes](#componentes)
@@ -28,9 +28,9 @@ Obs: Se o usuário estiver numa localidade do idioma Português, é possível al
   - [Cabeçalho](#cabeçalho)
 
   - [Rodapé](#rodapé)
-  
+
   - [Perfil](#perfil)
-  
+
   - [Listagem](#listagem)
 
 - [Desenvolvimento](#desenvolvimento)
@@ -38,7 +38,7 @@ Obs: Se o usuário estiver numa localidade do idioma Português, é possível al
   - [Configurações Iniciais](#configurações-iniciais)
 
   - [Instalação do Projeto](#instalação-do-projeto)
-  
+
   - [Execução do Projeto](#execução-do-projeto)
 
   - [Bibliotecas](#bibliotecas)
@@ -139,6 +139,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 - [Particles.js](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/particlesjs.md)
 
 - [React Intl](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-intl.md)
+
+- [React Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-redux.md)
 
 - [React Router](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-router.md)
 
