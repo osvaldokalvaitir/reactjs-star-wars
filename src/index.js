@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
 import { Provider } from 'react-redux';
 
@@ -10,11 +12,7 @@ import { store } from './store/store';
 import { flattenMessages } from './intl/utils';
 import messages from './intl/messages';
 
-import App from './App';
-
 import './style.css';
-
-import registerServiceWorker from './registerServiceWorker';
 
 addLocaleData([...en, ...pt]);
 // Se as linhas bloqueadas do inglês forem liberadas, bloquear estas linhas abaixo
@@ -35,4 +33,8 @@ ReactDOM.render(
   </IntlProvider>,
   document.getElementById('root'),
 );
-registerServiceWorker();
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: http://bit.ly/CRA-PWA
+serviceWorker.unregister();

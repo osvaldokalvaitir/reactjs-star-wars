@@ -2,27 +2,35 @@
   "name": "starwars",
   "version": "0.1.0",
   "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "formik": "^1.5.1",
+    "jw-react-pagination": "^1.0.7",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-intl": "^2.8.0",
+    "react-particles-js": "^2.4.2",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "redux": "^4.0.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "dependencies": {
-    "axios": "^0.18.0",
-    "formik": "^1.3.0",
-    "jw-react-pagination": "^1.0.7",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
-    "react-intl": "^2.6.0",
-    "react-particles-js": "^2.3.0",
-    "react-redux": "^5.0.7",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.5",
-    "redux": "^4.0.0"
+  "eslintConfig": {
+    "extends": "react-app"
   },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
   "devDependencies": {
-    "eslint": "^5.14.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",

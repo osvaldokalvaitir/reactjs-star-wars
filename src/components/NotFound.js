@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const styles = {
   width: '100%',
@@ -123,7 +123,6 @@ const NotFound = props => (
       />
     </svg>
   </div>
-)
+);
 
-export default NotFound
-
+export default NotFound;
