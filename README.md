@@ -1,4 +1,14 @@
-﻿# Star Wars
+# Star Wars
+ 
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/starwars/blob/master/LICENSE)
+![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/starwars.svg)
+![](https://img.shields.io/github/last-commit/osvaldokalvaitir/starwars.svg?color=red)
+![](https://img.shields.io/github/languages/top/osvaldokalvaitir/starwars.svg?color=yellow)
+![](https://img.shields.io/github/languages/count/osvaldokalvaitir/starwars.svg?color=lightgrey)
+![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/starwars.svg)
+![](https://img.shields.io/github/repo-size/osvaldokalvaitir/starwars.svg?color=blueviolet)
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
+![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
 Esta aplicação foi criada em ReactJS realizando chamada em API e salvando os dados no Redux, e usando outras tecnologias web.
 
