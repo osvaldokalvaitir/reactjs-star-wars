@@ -21,7 +21,7 @@ Obs: Se o usuário estiver numa localidade do idioma Português, é possível al
 
 ## Índice
 
-- [Telas](#telas)
+- [Capturas de Tela](#capturas-de-tela)
 
   - [Login](#login)
 
@@ -51,11 +51,13 @@ Obs: Se o usuário estiver numa localidade do idioma Português, é possível al
 
   - [Execução do Projeto](#execução-do-projeto)
 
+- [Utilizados no Projeto](#utilizados-no-projeto)
+
   - [Bibliotecas](#bibliotecas)
 
   - [APIs](#apis)
 
-## Telas
+## Capturas de Tela
 
 ### Login
 
@@ -124,6 +126,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md) e siga a Execução de Projeto.
 
+## Utilizados no Projeto
+
 ### Bibliotecas
 
 - [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
@@ -158,4 +162,4 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 ### APIs
 
-- [Star Wars API: SWAPI](https://swapi.co/documentation#start)
+- **[Star Wars API: SWAPI](https://swapi.co/documentation#start)**
