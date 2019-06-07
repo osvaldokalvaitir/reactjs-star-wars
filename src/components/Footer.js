@@ -83,7 +83,7 @@ const Footer = () => {
         &copy; {year}, <FormattedMessage id="developedBy" />{" "}
         <a
           className="text-dark"
-          href="https://github.com/osvaldokalvaitir/starwars"
+          href="https://github.com/osvaldokalvaitir/reactjs-starwars"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -1,5 +1,5 @@
 {
-  "name": "starwars",
+  "name": "reactjs-starwars",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
