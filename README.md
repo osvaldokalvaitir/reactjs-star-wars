@@ -162,4 +162,4 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 ### APIs
 
-- **[Star Wars API: SWAPI](https://swapi.dev)**
+- **[SWAPI - The Star Wars API](https://github.com/osvaldokalvaitir/projects-settings/blob/master/api/swapi.md)**
